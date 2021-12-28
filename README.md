@@ -1,4 +1,11 @@
-# Log Benchmark
+# CPP Log Benchmark
+
+C++ Log Benchmark, Also a good example for using these libraries:
+
+- glog
+- g3log
+- spdlog
+- easyloggingpp
 
 ## Build
 
@@ -12,7 +19,7 @@ bazel build //src:all --copt=-O3 --copt=-fPIC
 
 ### glog
 
-```glog
+```bash
 2021-12-28T11:06:52+08:00
 Running ./bazel-bin/src/glog
 Run on (16 X 3193.88 MHz CPU s)
@@ -92,7 +99,7 @@ BM_spdlog_flush/threads:8       4415 ns        21095 ns        32624
 ### easyloggingpp
 
 
-```
+```bash
 2021-12-28T11:07:20+08:00
 Running ./bazel-bin/src/easyloggingpp
 Run on (16 X 3193.88 MHz CPU s)
